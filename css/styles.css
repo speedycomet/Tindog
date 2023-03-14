@@ -1,0 +1,151 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+  font-weight: 700;
+}
+p {
+  color: #8f8f8f;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Heading */
+.big-heading{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+
+/*Download Buttons */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+.iphone {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+#title {
+  background-color: #ff4c68;
+  color: white;
+  z-index: -1;
+  text-align: left;
+}
+#title .container-fluid{
+  padding: 3% 15% 7%;
+}
+@media (max-width: 1028px) {
+  .iphone {
+    position: static;
+    transform: rotate(0deg);
+    width: 60%;
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+/* Features */
+#features {
+  background-color: white;
+  position: relative;
+}
+.feature-box {
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.feature-title{
+  font-size: 1.5rem;
+}
+
+/* Testimonial */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Press */
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
+/* Price card */
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+.card-title{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CTA */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
+}
+
+
+/* Footer */
+#footer {
+  background-color: #fff;
+  margin: 7% 20%;
+  
+}
+.footer-fa {
+  margin: 20px 10px;
+  
+}
